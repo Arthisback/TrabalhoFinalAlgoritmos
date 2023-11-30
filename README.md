@@ -1,1 +1,1 @@
-# TrabalhoFinalAlgoritmos
+Trabalho final do aluno Arthur Antonio Bertoglio na matéria de Algoritmos e Programação do primeiro semestre do curso de Ciência da Computação da UFFS Campus Chapecó.
