@@ -48,11 +48,11 @@ def showTask(task_list): #Função parar mostrar as tarefas que foram adicionada
      elif option=="2":
           for i in range(len(auxList)):
                if task_list[i].situation =='Ativa':
-                    print(f"Tarefa(s) Ativa(s):{auxList[i]}")
+                    print(auxList[i])
      elif option== "3":
           for i in range(len(task_list)):
                if task_list[i].situation =='Concluido':
-                    print(f"Tarefa(s) Concluida(s):{task_list[i]}")
+                    print(task_list[i])
           
 def modifyTask(task_list): #Função para alterar os dados de uma tarefa ja adicionada
       for i in range(len(task_list)):
@@ -87,15 +87,16 @@ def mainMenu(): #Menu principal onde o usuario pode escolher qual opção ele qu
      task_list= []
      while True:
           print("==========================================")
-          print("   Sistema de gerenciamento de tarefas")
+          print("==  Sistema de gerenciamento de tarefas ==")
           print("==========================================")
-          print("Insira a opção desejada! ")
-          print("Para sair do programa digite: 0 ")
-          print("Para Adicionar tarefa digite: 1 ")
-          print("Para Visualizar tarefa digite: 2 ")
-          print("Para Alterar uma tarefa digite: 3")
-          print("Para Concluir uma tarefa digite: 4")
-          print("Para Excluir  uma tarefa digite: 5")
+          print("==       Insira a opção desejada!       ==")
+          print("== Para sair do programa digite:    0   ==")
+          print("== Para Adicionar tarefa digite:    1   ==")
+          print("== Para Visualizar tarefa digite:   2   ==")
+          print("== Para Alterar uma tarefa digite:  3   ==")
+          print("== Para Concluir uma tarefa digite: 4   ==")
+          print("== Para Excluir  uma tarefa digite: 5   ==")
+          print("==========================================")
           option = input()
           if option == "0":
                break
